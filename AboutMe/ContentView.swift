@@ -17,20 +17,18 @@ struct ContentView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .cornerRadius(15)
-                HStack(spacing: 20){
+                HStack(spacing:20){
                     Text("Willa Mayrose")
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
-            Text("Poet of Code")
-                        .foregroundColor(.white)
                 }
-                Text("Founder of the Algorithmic Justice League. Uses art and research to illuminate social implications of AI and to promote equitable and accountable technology.")
+                Text("Student of Kode With Klossy. First time learning to code but having a good time. Loves to play soccer (and other sports), read, and watch TV. In her free time you will find her playing with her dog or learning Spanish!")
                     .foregroundColor(.white)
             } .padding()
             .background(Rectangle().foregroundColor(.black))
             .cornerRadius(15)
-            .frame(height: 900.0)
+            .frame(height: 1000)
             .shadow(radius: 15)
             .padding()
 // VStack end
